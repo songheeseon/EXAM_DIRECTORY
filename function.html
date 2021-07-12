@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <script>
+
+            count=0;
+            var timerid = null;
+
+            function changeTo(myImg){
+                var myNum = document.getElementById("num");
+                myNum.src = myImg;
+            }
+
+            function Start(){
+                count = Auto_change_img(count);
+              timerid = setTimeout(Start, 500);
+
+              
+                
+            }
+
+            function Stop(){
+                clearTimeout(timerid);
+            }
+
+            function Auto_change_img(count){
+                var myNum = document.getElementById("num");
+                switch(count){
+
+                    case 0: 
+                     str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 1;
+
+                    case 1:
+                    str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 2;
+                    
+                    case 2:
+                    str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 3;
+
+                    case 3:
+                     str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 4;
+
+                    case 4:
+                     str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 5;
+
+                    case 5:
+                     str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 6;
+
+                     case 6:
+                     str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 7;
+
+                     case 7:
+                     str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 8;
+
+                     case 8:
+                     str = ""+count+".jpg"; 
+                     myNum.src = str; 
+                     return 0;
+
+                }
+
+            }
+        </script>
+        <body>
+            <form>
+                <input type="button" value="start" onclick="Start()" this.onclick=null;>
+
+
+                <input type="button" value="stop" onclick="Stop();">
+            </form>
+            
+            <div>
+                <img src="2.jpg" id="num">
+            </div>
+
+        
+        </body>
+    </head>
+</html>
