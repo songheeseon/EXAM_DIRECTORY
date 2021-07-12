@@ -1,6 +1,9 @@
 # BBS (Server Programming Final Project)
 [게시판 구현 프로젝트](https://transferhwang.tistory.com/search/%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
+### Preview
+![sysgimal_preview](./img/sysgimal_preview.png)
+
 ### Main Function
 - 로그인, 회원가입, 로그아웃
 - 게시판 CRUD
@@ -15,3 +18,5 @@
 |---------------|-------------|---------------|
 |`Bootstrap`    |`PHP`        |`Maria DB`     |       
 
+### Developer
+- https://github.com/workhardslave (Seunghwan Hwang, 황승환)
