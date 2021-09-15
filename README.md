@@ -18,5 +18,3 @@
 |---------------|-------------|---------------|
 |`Bootstrap`    |`PHP`        |`Maria DB`     |       
 
-### Developer
-- https://github.com/workhardslave (Seunghwan Hwang, 황승환)
